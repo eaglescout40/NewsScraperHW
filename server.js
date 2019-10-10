@@ -36,7 +36,7 @@ app.get("/", function(req, res) {
   res.render("index");
 });
 
-var MONGODB_URI = "mongodb://" || "mongodb://localhost/newsScraper";
+var MONGODB_URI = "mongodb://demo_create_mongo_db.js" || "mongodb://localhost/newsScraper";
 
 // By default mongoose uses callbacks for async queries, we're setting it to use promises (.then syntax) instead
 // Connect to the Mongo DB

@@ -20,7 +20,7 @@ $(document).on("click", "p", function() {
     method: "GET",
     url: "/articles/" + thisId
   })
-    // With that done, add the note information to the page
+    // Add the note information to the page
     .then(function(data) {
       console.log(data);
       // The title of the article
