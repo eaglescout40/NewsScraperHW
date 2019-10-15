@@ -1,0 +1,57 @@
+html {
+    position: relative;
+    min-height: 100%;
+    
+}
+
+ /* body {
+    background-image: url("../images/type.jpg"); background-repeat: no-repeat;
+    background-size: cover;  
+    background-repeat: no-repeat;
+    height: 100%; 
+    
+}   */
+
+.navbar-brand,
+.nav-item,
+h4,
+h5,
+.btn,
+a,
+li,
+textarea,
+h6 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.jumbotron {
+    margin-top: 70px;
+    height: 100px;
+    z-index: auto;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+   
+}
+
+h4,
+.navbar-brand,
+.nav-item,
+.btn,
+h6,
+h5 {
+    font-weight: bolder;
+}
+
+.bootbox-alert div div div button.btn-primary {
+         background-color: rgba(12, 2, 2, 0.637);
+     }
+ 
+a {
+    color: lightgray;
+}
