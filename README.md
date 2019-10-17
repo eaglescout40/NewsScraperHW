@@ -1,6 +1,6 @@
 # __News Scraper__
 
-## Deployed on Heroku <a href="https://news-scraperdb.herokuapp.com/" rel="nofollow"> here.</a>
+## Deployed on Heroku <a href="https://#####/" rel="nofollow"> here.</a>
 
 
 
@@ -27,20 +27,20 @@ An app that scrapes articles from the New York Times website and lets users save
 
 ## Home Page showing Scraped Articles:
 
-![Website](/public/assets/images/Capture.JPG)
+
 
 
 
 
 
 ## Saved Article Page gives option to Delete or Add/View Notes:
-![Website](/public/assets/images/Capture2.JPG)
+
 
 
 
 ## Pop-up Modal to View , Add or Delete Note:
 
-![Website](/public/assets/images/Capture3.JPG)
+
 
 
 

@@ -6,7 +6,7 @@ var cheerio = require("cheerio");
 var axios = require("axios");
 
 var scrape = function (cb) {
-  request("https://www.babylonbee.com", function (err, res, body) {
+  request("https://www.nytimes.com", function (err, res, body) {
     var $ = cheerio.load(res.body);
     var articles = [];
 
@@ -22,7 +22,7 @@ var scrape = function (cb) {
         var dataToAdd = {
           headline: headNeat,
           summary: sumNeat,
-          link: "https://www.babylonbee.com" + url,
+          link: "https://www.nytimes.com" + url,
 
 
         };
